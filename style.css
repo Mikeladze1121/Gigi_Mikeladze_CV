@@ -1,0 +1,242 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#020d14,#050f18);
+color:#fff;
+overflow-x:hidden;
+}
+
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+
+.container{
+max-width:1200px;
+width:100%;
+padding:80px 60px;
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+gap:80px;
+background:rgba(255,255,255,0.02);
+border:1px solid rgba(0,191,255,0.15);
+border-radius:24px;
+position:relative;
+}
+
+
+.lang-switch{
+position:absolute;
+top:20px;
+right:25px;
+z-index:10;
+}
+
+.lang-switch img{
+width:32px;
+cursor:pointer;
+margin-left:8px;
+transition:.2s;
+}
+
+.lang-switch img:hover{
+transform:scale(1.1);
+}
+
+
+.content{
+max-width:600px;
+}
+
+h1 span{
+color:#00bfff;
+}
+
+
+.buttons button{
+padding:12px 26px;
+border-radius:8px;
+border:none;
+cursor:pointer;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+.buttons .outline{
+background:transparent;
+border:2px solid #00bfff;
+color:#00bfff;
+}
+
+.buttons .ghost{
+background:transparent;
+border:2px dashed #00bfff;
+color:#00bfff;
+}
+
+
+.section{
+margin-top:30px;
+line-height:1.7;
+}
+
+.hidden{
+display:none;
+}
+
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skills span{
+padding:8px 14px;
+border-radius:20px;
+background:rgba(0,191,255,0.15);
+border:1px solid #00bfff;
+font-size:14px;
+}
+
+
+.project-card{
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(0,191,255,0.3);
+padding:20px;
+border-radius:12px;
+max-width:420px;
+}
+
+.project-link{
+display:inline-block;
+margin-top:12px;
+color:#00bfff;
+text-decoration:none;
+}
+
+
+.socials{
+margin-top:40px;
+}
+
+.socials a{
+width:44px;
+height:44px;
+border-radius:50%;
+border:1px solid #00bfff;
+color:#00bfff;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+margin-right:12px;
+transition:.2s;
+}
+
+.socials a:hover{
+background:#00bfff;
+color:#000;
+}
+
+
+.image{
+display:flex;
+flex-direction:column;
+align-items:center;
+position:relative;
+z-index:1;
+}
+
+.image img{
+width:320px;
+border-radius:22px;
+transition:.3s;
+}
+
+
+.contact-info{
+margin-top:20px;
+font-size:14px;
+opacity:0.9;
+width:100%;
+}
+
+.contact-info p{
+margin:6px 0;
+display:flex;
+align-items:center;
+gap:8px;
+justify-content:flex-start;
+}
+
+.contact-info i{
+color:#00bfff;
+width:18px;
+}
+
+
+.floating{
+animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+}
+
+
+@media(max-width:720px){
+
+.container{
+flex-direction:column-reverse;
+text-align:center;
+padding:40px 20px;
+gap:40px;
+}
+
+
+.image{
+width:100%;
+align-items:center;
+text-align:center;
+}
+
+
+.image img:hover{
+transform:none;
+}
+
+.image img{
+width:240px;
+}
+
+
+.contact-info p{
+justify-content:center;
+}
+
+
+.skills{
+justify-content:center;
+}
+
+
+.buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}

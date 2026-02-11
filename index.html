@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>Gigi Mikeladze - CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="lang-switch">
+            <img src="https://flagcdn.com/w40/ge.png" onclick="setLang('ka')" alt="ქართული">
+            <img src="https://flagcdn.com/w40/gb.png" onclick="setLang('en')" alt="English">
+        </div>
+        <br></br>
+        <div class="content fade-in">
+            <h1 id="title">გამარჯობა, მე ვარ <span>გიგი მიქელაძე</span></h1>
+            <br></br>
+
+            <h2 id="job">IT Support / Network & Systems</h2>
+            <br></br>
+
+            <p id="shortDesc" class="short-desc"> კავკასიის უნივერსიტეტის კომპიუტერული მეცნიერებების მესამე კურსის სტუდენტი.</p>
+
+            <br></br>
+            <div class="buttons">
+                <button onclick="showAbout()" id="btnAbout">ჩემს შესახებ</button>
+                <button class="outline" onclick="showSkills()" id="btnSkills">უნარები</button>
+                <button class="ghost" onclick="showProjects()" id="btnProjects">ნამუშევრები</button>
+            </div>
+
+            <div id="about" class="section hidden fade-in">
+                <p id="aboutText">
+                    მოგესალმებით, მე ვარ გიგი მიქელაძე, კავკასიის უნივერსიტეტის კომპიუტერული მეცნიერების მესამე კურსის სტუდენტი. 
+                    პასუხისმგებლობა, მიზანდასახულობა და მუდმივი განვითარების მოტივი ბავშვობიდან მომყვება, რაზეც მეტყველებს ის ფაქტი, 
+                    რომ ვარ ოქროს მედალოსანი და ასევე ჩემი GPA აღემატება 3.8-ს. 
+                    ამ საქმის ინტერესი მაძლევს მოტივაციას, რომ სწრაფად შევისწავლო ახალი მიმართულებები და გამოვიყენო ეს ყოველივე პრაქტიკაში.
+                    <br></br>
+                    საკმაოდ დიდი გამოცდილება მაქვს IT Support-ისა და სისტემური ადმინისტრირების მიმართულებით, პერსონალური გამოყენებისთვის
+                    მისარგებლია, როგორც ვინდოუსით, ასევე linux ოპერაციული სისტემებით. გამოცდილება მაქვს კომპიუტერების აწყობასა და შემდეგ 
+                    გამართვა-მონიტორინგთან. მქონდა მცირე საკუთარი ბიზნესი, ვაწყობდი კომპიუტერებს დაკვეთით და ვმართავდი სისტემურად,
+                    ამიწყია კომპიუტერები პატარა ოფისებისთვის.
+                    <br></br>
+                    ქსელის მიმართულებით შეხება მქონია სხვადასხვა ქსელის მოწყობილობებთან და გამიმართია ისინი რეალურ გარემოში.
+                    მაქვს  პატარ-პატარა პროექტები Cisco Packet Tracer-შიმ სადაც გამოყენებული მაქვს: VLAN, DHCP, Static, EIGRP,OSPF. ასევე ვიცი BGP პროტოკოლიც.
+                    <br></br>
+                    ვიცი სხვადასხვა პროგრამირების ენებიც, ესენია: C, C++, C#, Python, HTML, CSS, JS. C#-ით გამოცდილება მაქვს ობიექტზე ორიენტირებულ პროგრამირებაში 
+                    და ვფლობ მის სხვადასხვა ხერხებს, როგორიცაა: მემკვიდრეობითობა, აბსტრაქცია, პოლიმორფიზმი და ა.შ.
+                    <br></br>
+                    ამ ყველაფრის პარალელურად, გავლილი მაქვს ციფრული მარკეტინგი და ვიცი: 
+                    Facebook Ads, Google Ads, SEO, Email Marketing.
+                    <br></br>
+                    ასევე მაქვს საბაზისო ცოდნა MySQL-ში.
+                    <br></br>
+                    საუნივერსიტო განათლების გარდა გავლილი მაქვს IT Step Academy-ს, IT Support კურსი და მაქვს შესაბამისი სერთიფიკატი.
+                    მადლობა ყურადღებისთვის, ვფიქრობ, რომ ჩემი ცოდნა და გამოცდილება იქნება თქვენთვის საუკეთესო!
+                </p>
+            </div>
+
+            <div id="skills" class="section hidden skills fade-in">
+                <span>OOP</span>
+                <span>C / C++ / C# / Python</span>
+                <span>Windows / Linux</span>
+                <span>Network Administration</span>
+                <span>MySQL</span>
+                <span>VLAN / DHCP</span>
+                <span>Static Routing</span>
+                <span>EIGRP / OSPF</span>
+                <span>Cisco Packet Tracer</span>
+                <span>Hardware Assembly</span>
+                <span>IT Support</span>
+                <span>Marketing</span>
+                <span>Facebook Ads</span>
+                <span>Google Ads</span>
+                <span>Email Marketing</span>
+                <span>SEO</span>
+                <span>MS Office</span>
+            </div>
+
+            <div id="projects" class="section hidden fade-in">
+                <div class="project-card">
+                    <h3 id="projectsTitle">ნამუშევრები</h3>
+                    <p id="projectsDesc">ჯერ-ჯერობით აქ იხილავთ ერთ-ერთ ჩემს Cisco Packet Tracer-ის პროექტს</p>
+                    <a href="https://github.com/GigiMikeladze" target="_blank"   class="project-link" id="githubLink">GitHub Profile</a>
+                </div>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.facebook.com/share/17voPL9Try/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/gigi_mikeladze" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gigi-mikeladze-5431952b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+        <div class="image floating">
+            <img src="./480499951_1611279279514402_5481645388418938093_n.jpg" alt="Gigi Mikeladze">
+            
+            <br></br>
+            <div class="contact-info"> 
+                <p id="phone"> <i class="fas fa-phone"></i> ტელ: 558 55 10 45 </p>
+                <p id="email"> <i class="fas fa-envelope"></i> Email: g_mikeladze3@cu.edu.ge </p> 
+                <p id="birth"> <i class="fas fa-calendar"></i> დაბ. თარიღი: 08/07/2005 </p> 
+                <p id="location"> <i class="fas fa-location-dot"></i> საც. ადგილი: თბილისი </p> 
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
