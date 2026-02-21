@@ -35,7 +35,9 @@ about:`Hello,my name is Gigi Mikeladze.I am a third year computer science studen
 
 I love IT field and I am very interested in that.I enjoy learning new technologies and using them for practice. I have experience of IT Support and system administration.They are both windows and linux operating systems. I have experience of building computer and fixing computer problems, building computer for small office and monitoring computer systems.
 
-I had a small business which I build the computer and set the computer in some small office. I have also worked on network devices in real environments. I have small projects in packet tracer. In this project I managed VLAN, DHCP, Static routing, EIGRP and OSPF. I also know the basics of BGP.
+I had a small business which I build the computer and set the computer in some small office. I also have one year of work experience, working in Adjara Textile in an IT support position, where I had to repair computers, monitor the network, etc.
+
+I have also worked on network devices in real environments. I have small projects in packet tracer. In this project I managed VLAN, DHCP, Static routing, EIGRP and OSPF. I also know the basics of BGP.
 
 I know some programming languages like C, C++, C#, python, html, css, javascript. I have experience for object oriented programming in C# and I know some concepts of inheritance, abstraction and polymorphism.
 
@@ -85,3 +87,4 @@ document.getElementById("location").innerHTML =
     `<i class="fas fa-location-dot"></i> ${translations.en.location}`;
 
 }
+
